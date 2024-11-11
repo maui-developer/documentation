@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.5.2">
 <title data-rh="true">1. Log On | Lurana</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://maui-developer.github.io/documentation/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://maui-developer.github.io/documentation/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://maui-developer.github.io/documentation/docs/ProcessMaker-3.8/BasicFeatures/1Login"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="1. Log On | Lurana"><meta data-rh="true" name="description" content="You can log on to ProcessMaker in different ways depending on whether you log on through the standard interface or through an Enterprise plugin."><meta data-rh="true" property="og:description" content="You can log on to ProcessMaker in different ways depending on whether you log on through the standard interface or through an Enterprise plugin."><link data-rh="true" rel="icon" href="/documentation/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://maui-developer.github.io/documentation/docs/ProcessMaker-3.8/BasicFeatures/1Login"><link data-rh="true" rel="alternate" href="https://maui-developer.github.io/documentation/docs/ProcessMaker-3.8/BasicFeatures/1Login" hreflang="en"><link data-rh="true" rel="alternate" href="https://maui-developer.github.io/documentation/docs/ProcessMaker-3.8/BasicFeatures/1Login" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/documentation/blog/rss.xml" title="Lurana RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/documentation/blog/atom.xml" title="Lurana Atom Feed"><link rel="stylesheet" href="/documentation/assets/css/styles.ce37c9a8.css">
-<script src="/documentation/assets/js/runtime~main.b5127925.js" defer="defer"></script>
+<script src="/documentation/assets/js/runtime~main.8a5adca5.js" defer="defer"></script>
 <script src="/documentation/assets/js/main.3f50867d.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -27,7 +27,7 @@
 <p>Enter the IP address (or domain name) and port number for the server or instance hosting ProcessMaker in a standard web browser.</p>
 <p><code>http://&lt;IP-ADDRESS&gt;:&lt;PORT&gt;</code></p>
 <p>For example, if running ProcessMaker at the IP address 192.168.1.110 from the port 3018, then enter:</p>
-<p><a href="http://192.168.1.110:3018" target="_blank" rel="noopener noreferrer">http://192.168.1.110:3018</a></p>
+<p><code>http://192.168.1.110:3018</code></p>
 <p>If only the IP address (or domain name) is included in the URL, the web browser automatically redirects to the ProcessMaker logon screen at:</p>
 <p><code>http://&lt;IP-ADDRESS&gt;:&lt;PORT&gt;/sys/en/neoclassic/login/login.html</code></p>
 <p>The logon screen displays.</p>
@@ -41,8 +41,8 @@
 <li>Password: admin</li>
 <li>Workspace: workflow</li>
 </ul>
-<p>After you are logged on as the &quot;admin&quot; user, create new users in ProcessMaker. During your first logon, be sure to change the admin&#x27;s password for greater security. After users have been created, they will be able to logon with their own user names and passwords.
-b. If logging on as a user, enter your user name and password. If the workspace was not included in the URL, select the workspace. The default workspace is &quot;workflow&quot;.</p>
+<p>After you are logged on as the &quot;admin&quot; user, create new users in ProcessMaker. During your first logon, be sure to change the admin&#x27;s password for greater security. After users have been created, they will be able to logon with their own user names and passwords.</p>
+<p>b. If logging on as a user, enter your user name and password. If the workspace was not included in the URL, select the workspace. The default workspace is &quot;workflow&quot;.</p>
 </li>
 <li>
 <p>Select the default language to display ProcessMaker if additional languages have been installed to ProcessMaker. English is the default language.</p>
@@ -78,7 +78,7 @@ b. If logging on as a user, enter your user name and password. If the workspace 
 </ol>
 <p><code>http://&lt;IP-ADDRESS&gt;:&lt;PORT&gt;/sys&lt;WORKSPACE&gt;/&lt;DEFAULT-LANGUAGE&gt;/neoclassic/login/login.html</code></p>
 <p>For example, if running ProcessMaker at the IP address 192.168.1.110 from the port 3018 using the workspace named BPMWORKSPACE, and using English as the default language, then enter:</p>
-<p><a href="http://192.168.1.110:3018/sysbpmworkspace/en/neoclassic/login/login.html" target="_blank" rel="noopener noreferrer">http://192.168.1.110:3018/sysbpmworkspace/en/neoclassic/login/login.html</a></p>
+<p><code>http://192.168.1.110:3018/sysbpmworkspace/en/neoclassic/login/login.html</code></p>
 <ol start="2">
 <li>
 <p>The URL redirects to the IdP service (in this case, Okta). Depending on the Field Matching configuration, the logon screen displays.</p>
