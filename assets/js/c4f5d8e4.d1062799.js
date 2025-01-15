@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2634],{85430:(e,t,s)=>{s.r(t),s.d(t,{default:()=>a});s(96540);var n=s(56347),u=s(74848);function a(){return(0,u.jsx)(n.rd,{to:"/docs/category/foundation-in-luranasoft"})}}}]);
